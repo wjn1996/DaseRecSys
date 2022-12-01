@@ -6,7 +6,7 @@
 
 ### 问题定义
 给定一个用户评分矩阵 $\mathbf{R}\in\mathbb{R}^{m\times n}$，其中 $m$ 为用户（user）的数量，$n$ 为物品（item）的数量。矩阵元素 $r_{ij}\in\mathbf{R}$ 表示用户 $u_i$ 为物品 $v_j$ 的评分值。任务目标有两个：
-- 通过矩阵分解和凸优化技术，获得每个用户 $u_i$ 和物品 $v_j$ 的隐式向量，分别记作 $\mathbf{u}_i\in\mathbb{R}^{k}$和$\mathbf{v}_i\in\mathbb{R}^{k}$ ，其中$k$为向量维度；所有用户和物品分别组成矩阵 $\mathbf{P}\in\mathbb{R}^{m\times k}$ 和 $\mathbf{Q}\in\mathbb{R}^{n\times k}$ ；
+- 通过矩阵分解和凸优化技术，获得每个用户 $u_i$ 和物品 $v_j$ 的隐式向量，分别记作 $\mathbf{u}_i\in\mathbb{R}^{k}$ 和 $\mathbf{v}_i\in\mathbb{R}^{k}$ ，其中$k$为向量维度；所有用户和物品分别组成矩阵 $\mathbf{P}\in\mathbb{R}^{m\times k}$ 和 $\mathbf{Q}\in\mathbb{R}^{n\times k}$ ；
 - 根据获得的用户和物品向量，预测该用户对某个物品的偏好程度 $\hat{r}_{ij}=\mathbf{u}_i\mathbf{v}_i^{T}$；
 
 因为在实际应用中，这个用户评分矩阵式稀疏的。例如某电影网站一共有100
