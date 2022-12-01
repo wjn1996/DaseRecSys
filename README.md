@@ -74,6 +74,6 @@ ID,rating
 - 实验报告（只限PDF版本）；
 
 以下为可选作业（作为加分项目，鼓励大家完成，但不作为强求）
-- 测试集的预测结果（提交到榜单上https://www.kaggle.com/competitions/dase-recsys/overview，注意实名）；
+- 测试集的预测结果（提交到榜单上https://www.kaggle.com/competitions/dase-recsys/overview ，注意实名）；
 
 本次实践作业不允许相互抄袭；不允许使用验证集或测试集训练模型；不允许使用他人测试集预测的结果作为提交结果；数据集为公开数据，但不允许通过非模型训练手段完成预测。
