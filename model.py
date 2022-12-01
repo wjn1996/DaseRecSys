@@ -146,6 +146,7 @@ class MatrixDecomForRecSys(object):
 
     def test(self, test_data):
         '''预测测试集榜单数据'''
+        # 预测结果可以提交至：https://www.kaggle.com/competitions/dase-recsys/overview
         test_data = pd.DataFrame(test_data)
         # 加载训练好的P和Q
         best_pq = np.load("best_pq.npz", allow_pickle=True)
